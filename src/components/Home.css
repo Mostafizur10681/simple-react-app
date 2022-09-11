@@ -1,0 +1,23 @@
+body {
+    background-color: ghostwhite;
+}
+
+.heading {
+    font-size: 40px;
+    color: darkcyan;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+hr {
+    color: darkcyan;
+    width: 400px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
