@@ -12,10 +12,9 @@ const Home = () => {
             .then(data => setComments(data))
     }, [])
     return (
-        <div className='main-div'>
+        <div>
             <h1 className='heading'>Our Clients Comments</h1>
             <hr />
-
             <div className='container'>
                 {
                     comments.map(comment => <Comments

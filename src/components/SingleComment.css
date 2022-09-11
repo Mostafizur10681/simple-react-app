@@ -1,0 +1,14 @@
+.single-card {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: darkcyan;
+    color: white;
+    box-shadow: 5px 8px 8px 8px #888888;
+}
+
+.single-card h2 {
+    text-transform: capitalize;
+}
